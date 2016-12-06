@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto');
+hmtl,body{
+  min-height: 100%;
+  max-height: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  background: url("field.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+}
+#main .container{
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+  padding: 15%;
+}
+h1{
+  font-weight: semi-bold 900;
+  font-size: 70px;
+}
+h1 span{
+  color: black;
+}
+#timeline{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  color: black;
+}
+div.product{
+  padding: 15%;
+}
+div.product h1{
+  color: #FF6363;
+}
+h3 span{
+  font-weight: bold;
+}
+div.product p{
+  font-size: 18px;
+}
+div.product i{
+  color: #06D6A0;
+}
+#timeline2 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  color: black;
+}
+div.benefits{
+  padding: 15%;
+}
+div.benefits h1 {
+  color: #69739E;
+}
+div.benefits i{
+  color: #FED766;
+}
+div.benefits p{
+  font-size: 18px;
+}
+#school{
+  height: 100%;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+#school div.container-fluid{
+  height: 100%;
+  width: 100%;
+}
+.picture{
+  height: 50%;
+  width: 50%;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#school h3 {
+  font-weight: bold;
+  padding: 3%;
+}
+
+footer{
+  height: 100%;
+  width: 100%;
+  background-color: #1A1A1B;
+  color: #FFFFFF;
+  padding: 2%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 568px) {
+  #main.container{padding: 0;}
+  h1 {font-size: 3.5em;}
